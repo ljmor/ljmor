@@ -41,7 +41,7 @@ Follow these instructions to set up the project locally on your machine.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/ljmor/portfolio.git](https://github.com/ljmor/portfolio.git)
+    git clone https://github.com/ljmor/ljmor.git
     cd portfolio
     ```
 
@@ -73,7 +73,7 @@ The contact form is integrated with **Formspree** using the official React libra
     const FORMSPREE_ID = "your_form_id_here";
     ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 portfolio/
