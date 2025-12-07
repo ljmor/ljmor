@@ -121,7 +121,7 @@ const EDUCATION = [
   {
     institution: "Private Technical University of Loja",
     degree: "Computer Science Engineering",
-    period: "2023 – Present"
+    period: "2023 – 2026"
   },
   {
     institution: "AnyoneAI",

@@ -1,120 +1,83 @@
-# 🚀 Luis Mora | AI Engineer & Software Developer Portfolio
+# Luis Mora
+### Software Developer | AI Engineer | Machine Learning Engineer
 
-![Project Status](https://img.shields.io/badge/Status-Production%20Ready-success)
-![Tech Stack](https://img.shields.io/badge/Stack-React%20%7C%20Tailwind%20%7C%20Framer%20Motion-blue)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Profile Views](https://komarev.com/ghpvc/?username=ljmor&color=blue&style=flat-square) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ljmor/) [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat-square&logo=microsoft-outlook)](mailto:ljmora004@outlook.com)
 
-## Overview
+I am a Software Developer and AI Engineer with over **2 years of experience** delivering data-driven solutions across healthcare, fintech, and e-commerce sectors. Currently, I work at **ScaleAI**, focusing on LLM evaluation, Reinforcement Learning (RLHF/RLAIF), and building robust analytic pipelines.
 
-This repository contains the source code for the personal portfolio of **Luis Mora**, a Software Developer and AI Engineer specializing in LLM evaluation, Reinforcement Learning (RLHF/RLAIF), and scalable data solutions.
+**Location:** Loja, Ecuador
 
-The project is designed as a **high-performance, immersive single-page application (SPA)**. It leverages a **neuromorphic design system** with dark aesthetics, subtle glassmorphism, and fluid animations to reflect a modern, AI-driven professional identity.
-
-### Key Features
-
-* **Neuromorphic UI/UX**: Sophisticated dark theme with subtle depth, glowing edges, and glassmorphism effects.
-* **Immersive Interactions**: Custom magnetic cursor, hover effects, and smooth scroll animations powered by **Framer Motion**.
-* **Fully Responsive**: Mobile-first architecture ensuring seamless performance across desktops, tablets, and mobile devices.
-* **Performance Optimized**: Built with **Vite** for ultra-fast bundling and loading times.
-* **Contact Integration**: Functional contact form powered by **Formspree** (official React library integration).
-* **Modern Stack**: Strict usage of functional React components and Tailwind CSS utility classes.
+---
 
 ## Tech Stack
 
-* **Core Framework**: [React 18](https://reactjs.org/)
-* **Build Tool**: [Vite](https://vitejs.dev/)
-* **Styling**: [Tailwind CSS 3.4](https://tailwindcss.com/)
-* **Animations**: [Framer Motion](https://www.framer.com/motion/)
-* **Icons**: [Lucide React](https://lucide.dev/)
-* **Form Handling**: [@formspree/react](https://formspree.io/)
+**Languages**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-## Getting Started
+**AI, Machine Learning & LLMs**
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![FAISS](https://img.shields.io/badge/-FAISS-00ADD8?style=flat-square&logo=meta&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-Follow these instructions to set up the project locally on your machine.
+**Development & Cloud**
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### Prerequisites
+---
 
-* **Node.js** (v18.0.0 or higher recommended)
-* **npm** or **yarn**
+## Professional Experience
 
-### Installation
+### **ScaleAI** | AI Research & Evaluation Engineer
+*Jul 2025 – Present*
+Focused on LLM evaluation, reinforcement learning pipelines, and model alignment.
+- Designed and executed LLM evaluation pipelines (reasoning, safety, factuality, MCP compliance).
+- Performed RLHF/RLAIF evaluations and produced high-quality alignment data (GTFA).
+- Applied advanced prompt engineering (CoT, self-refine) to stress-test LLMs.
+- Built programmatic evaluation frameworks using Python-based data science scripts.
 
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/ljmor/ljmor.git
-    cd portfolio
-    ```
+### **Clipp** | Machine Learning Engineer
+*Oct 2024 – Aug 2025*
+Developed comprehensive data analytics solutions for Clipp's product suite (Taxis, Buses, Events).
+- Developed clustering algorithms (**K-Means, DBSCAN**) to segment user behavior.
+- Engineered features from raw event logs to enable effective ML models.
+- Interpreted predictive linear regression results to guide marketing strategies.
 
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
+### **Anyone AI** | Machine Learning Engineer
+*Mar 2025 – Jul 2025*
+Specialized machine learning development focused on fintech and e-commerce.
+- Predicted home credit repayment capability using **DecisionTree, XGBoost, and LightGBM** (ROC AUC > 0.72).
+- Built ELT pipelines to analyze revenue and delivery data for a major Latam e-commerce platform.
+- Built an image classification model (**CNN**) for vehicles and deployed as an API on AWS.
 
-3.  **Run the development server**
-    ```bash
-    npm run dev
-    ```
+### **Clínica San Jose** | Full Stack Developer
+*Oct 2024 – Feb 2025*
+- Developed a Clinic Management System using **React + Redux** and **Node.js + Express**.
+- Reduced administrative workload by an estimated 40% through process automation.
 
-4.  **Open in browser**
-    Navigate to `http://localhost:5173` to view the application.
+---
 
-## Configuration
+## Featured Projects
 
-### Contact Form Setup
+### **Insurance Policy AI Assistant**
+An intelligent, multi-tool AI agent designed to optimize insurance workflows using **RAG** to query policy databases and perform live web searches.
+* **Stack:** Python, LangChain, FAISS, Google Gemini API, FastAPI, Docker, Streamlit.
 
-The contact form is integrated with **Formspree** using the official React library. To connect it to your own email:
+### **Credit Risk Predictor**
+A supervised learning system to predict home credit repayment capabilities, trained on 350K+ transactions.
+* **Stack:** XGBoost, LightGBM, Scikit-learn, Python.
 
-1.  Create an account at [formspree.io](https://formspree.io).
-2.  Create a new form and copy the **Project ID** (e.g., `abcdxs`).
-3.  Open `src/App.jsx` and update the configuration constant:
+### **Vehicle Classifier API**
+Convolutional Neural Network (CNN) capable of identifying vehicle makes and models from e-commerce images.
+* **Stack:** PyTorch, CNN, Docker, AWS, Rest API.
 
-    ```javascript
-    // src/App.jsx
-    const FORMSPREE_ID = "your_form_id_here";
-    ```
+---
 
-## Project Structure
+## Education
 
-```bash
-portfolio/
-├── public/              # Static assets (Resume PDF, icon)
-├── src/
-│   ├── App.jsx          # Main application logic and layout
-│   ├── index.css        # Global styles and Tailwind directives
-│   └── main.jsx         # React entry point
-├── tailwind.config.js   # Tailwind configuration
-├── postcss.config.js    # PostCSS configuration
-├── vite.config.js       # Vite bundler configuration
-└── package.json         # Project dependencies and scripts
-````
+* **Computer Science Engineering** | *Private Technical University of Loja* (2023 – 2026)
+* **Machine Learning Engineer Specialization** | *AnyoneAI* (2025)
 
-## Deployment
+---
 
-This project is optimized for deployment on modern static hosting platforms like **Vercel**, **Netlify**, or **GitHub Pages**.
+## Connect
 
-### Build for Production
+I am currently open to new opportunities as an **AI/ML Engineer**. If you have a project or a role that involves LLMs, Data Science, or Software Engineering, feel free to reach out.
 
-To generate the optimized production build:
-
-```bash
-npm run build
-```
-
-The output files will be generated in the `dist/` directory, ready to be deployed.
-
------
-
-## Contact
-
-**Luis Mora**
-*Software Developer | AI Engineer | Machine Learning Engineer*
-
-  * **Email**: [ljmora004@outlook.com](mailto:ljmora004@outlook.com)
-  * **LinkedIn**: [linkedin.com/in/ljmor](https://www.linkedin.com/in/ljmor/)
-  * **GitHub**: [github.com/ljmor](https://github.com/ljmor)
-
------
-
-## 📄 License
-
-This project is licensed under the MIT License.
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='32'>](https://www.linkedin.com/in/ljmor/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='32'>](https://github.com/ljmor)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/microsoftoutlook.svg' alt='email' height='32'>](mailto:ljmora004@outlook.com)
