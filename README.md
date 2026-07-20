@@ -25,7 +25,7 @@ The question underneath it: does a topology shaped by evolution actually compute
 **AI Evaluation Specialist / Technical Data Annotator** at LinkedIn, contract, since Apr 2026
 Benchmark datasets and structured annotations for code generation and code editing models. Most of my time goes into finding the specific places where models break on multi-step, realistic engineering tasks.
 
-**AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – [end date]
+**AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – Jul 2026
 LLM evaluation pipelines covering reasoning, safety, factuality, tool use and MCP compliance, with Python statistical logic as the ground-truth validator. RLHF and RLAIF evaluation, adversarial prompting, schema-based evaluation frameworks.
 
 **Machine Learning Engineer** at Clipp, part-time, Oct 2024 – Aug 2025
@@ -44,9 +44,7 @@ Clinic management system in React and Node, deployed and used in production.
 
 **[SIGMA-IA Clipp](https://github.com/ljmor/marketseg-clustering-clipp)** — User segmentation for the Clipp Events app, so advertising targets preference and behaviour instead of broadcasting. I led the project and built the clustering models. Team of three. Python, scikit-learn.
 
-**[Insurance Policy AI Assistant](https://github.com/ljmor/Insurance_Chatbot_Personal)** — Multi-tool agent for insurance workflows. RAG over a vectorised policy database, with live web search for anything the index doesn't hold. Team project; my contribution was [fill this in]. LangChain, FAISS, Gemini API, FastAPI, Docker.
-
-**[Garantec Quoting Platform](https://github.com/ljmor/cotizador-seguros-garantec)** — Replacing a manual vehicle-insurance quoting process that took two to three days with one that targets under three minutes. I worked as project manager. Team of four. React, Material UI, Symfony REST backend.
+**[Insurance Policy AI Assistant](https://github.com/ji-berti/Insurance_Chatbot)** — Multi-tool agent for insurance workflows. RAG over a vectorised policy database, with live web search for anything the index doesn't hold. Team project; my contribution was [fill this in]. LangChain, FAISS, Gemini API, FastAPI, Docker.
 
 ## Tools I actually use
 
