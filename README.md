@@ -25,7 +25,7 @@ The question underneath it: does a topology shaped by evolution actually compute
 **AI Evaluation Specialist / Technical Data Annotator** at LinkedIn, contract, since Apr 2026
 Benchmark datasets and structured annotations for code generation and code editing models. Most of my time goes into finding the specific places where models break on multi-step, realistic engineering tasks.
 
-**AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – Jul 2026
+**AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – [end date]
 LLM evaluation pipelines covering reasoning, safety, factuality, tool use and MCP compliance, with Python statistical logic as the ground-truth validator. RLHF and RLAIF evaluation, adversarial prompting, schema-based evaluation frameworks.
 
 **Machine Learning Engineer** at Clipp, part-time, Oct 2024 – Aug 2025
@@ -40,13 +40,13 @@ Clinic management system in React and Node, deployed and used in production.
 
 **[flywire-snn-stdp](https://github.com/ljmor/flywire-snn-stdp)** — Connectome-derived spiking neural network with STDP plasticity, benchmarked against a degree-matched random control. Brian2, NetworkX, Python.
 
-**[Insurance Policy AI Assistant](https://github.com/ljmor/Insurance_Chatbot_Personal)** — Multi-tool agent for insurance workflows. RAG over a vectorised policy database, with live web search for anything the index doesn't hold. LangChain, FAISS, Gemini API, FastAPI, Docker.
+**[Clipp Analytics Platform](https://github.com/ljmor/data_analytics_clipp)** — Microservice platform producing KPI dashboards for six Clipp service lines. I designed the architecture and built the ETL module: scheduled Airflow extraction into a central PostgreSQL store, served through FastAPI. Team of three. Docker, Airflow, FastAPI, Pandas, PostgreSQL, Next.js.
 
-**Credit Risk Predictor** — Repayment prediction on 350k+ transactions, ROC AUC above 0.72. XGBoost, LightGBM.
+**[SIGMA-IA Clipp](https://github.com/ljmor/marketseg-clustering-clipp)** — User segmentation for the Clipp Events app, so advertising targets preference and behaviour instead of broadcasting. I led the project and built the clustering models. Team of three. Python, scikit-learn.
 
-**Vehicle Classifier API** — CNN for vehicle make and model from e-commerce images, deployed on AWS. PyTorch, Docker.
+**[Insurance Policy AI Assistant](https://github.com/ljmor/Insurance_Chatbot_Personal)** — Multi-tool agent for insurance workflows. RAG over a vectorised policy database, with live web search for anything the index doesn't hold. Team project; my contribution was [fill this in]. LangChain, FAISS, Gemini API, FastAPI, Docker.
 
----
+**[Garantec Quoting Platform](https://github.com/ljmor/cotizador-seguros-garantec)** — Replacing a manual vehicle-insurance quoting process that took two to three days with one that targets under three minutes. I worked as project manager. Team of four. React, Material UI, Symfony REST backend.
 
 ## Tools I actually use
 
@@ -60,7 +60,7 @@ JavaScript, React, Node.js, Express, SQL, FastAPI, Docker, AWS, Git
 Computer Science Engineering, Universidad Técnica Particular de Loja, 2023 – expected Mar 2027
 Thesis supervisor: Prof. Alexandra Cristina Gonzáles Eras
 
-AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree.
+AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree. Covered credit-risk modelling with gradient boosting, CNN image classification deployed on AWS, and ELT pipelines.
 
 ---
 
