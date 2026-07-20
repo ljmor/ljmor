@@ -1,83 +1,67 @@
 # Luis Mora
-### Software Developer | AI Engineer | Machine Learning Engineer
 
-![Profile Views](https://komarev.com/ghpvc/?username=ljmor&color=blue&style=flat-square) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ljmor/) [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat-square&logo=microsoft-outlook)](mailto:ljmora004@outlook.com)
+Computer Science Engineering student at UTPL, Ecuador. I work on spiking neural networks built from real connectome data.
 
-I am a Software Developer and AI Engineer with over **2 years of experience** delivering data-driven solutions across healthcare, fintech, and e-commerce sectors. Currently, I work at **ScaleAI**, focusing on LLM evaluation, Reinforcement Learning (RLHF/RLAIF), and building robust analytic pipelines.
-
-**Location:** Loja, Ecuador
+[LinkedIn](https://www.linkedin.com/in/ljmor/) · [Email](mailto:ljmora004@outlook.com) · [ORCID](https://orcid.org/YOUR-ID) · Loja, Ecuador
 
 ---
 
-## Tech Stack
+## What I'm working on
 
-**Languages**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+In October 2024 the FlyWire consortium published the first synapse-resolution map of an adult *Drosophila* brain: about 128,000 neurons and 53 million synapses. Shiu et al. then showed that this wiring alone, simulated as a leaky integrate-and-fire network, predicts real fly motor behaviour at roughly 95% accuracy. In March 2026 Eon Systems ran a whole embodied emulation of the fly in a physics engine.
 
-**AI, Machine Learning & LLMs**
-![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![FAISS](https://img.shields.io/badge/-FAISS-00ADD8?style=flat-square&logo=meta&logoColor=white) ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/-Scikit%20Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+All of those models share one limitation, and their authors say so themselves: the synaptic weights are static. The networks don't learn.
 
-**Development & Cloud**
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+My undergraduate thesis adds the learning. I extract the Johnston's Organ auditory circuit from the FlyWire connectome, implement it in Brian2, add spike-timing-dependent plasticity and winner-take-all dynamics, and race it against a control network matched on neuron count, degree distribution and everything else I could hold fixed. Topology is the only thing that differs, so if one wins, I know why.
 
----
+The question underneath it: does a topology shaped by evolution actually compute better than one we design? Nobody could test that before 2024.
 
-## Professional Experience
-
-### **ScaleAI** | AI Research & Evaluation Engineer
-*Jul 2025 – Present*
-Focused on LLM evaluation, reinforcement learning pipelines, and model alignment.
-- Designed and executed LLM evaluation pipelines (reasoning, safety, factuality, MCP compliance).
-- Performed RLHF/RLAIF evaluations and produced high-quality alignment data (GTFA).
-- Applied advanced prompt engineering (CoT, self-refine) to stress-test LLMs.
-- Built programmatic evaluation frameworks using Python-based data science scripts.
-
-### **Clipp** | Machine Learning Engineer
-*Oct 2024 – Aug 2025*
-Developed comprehensive data analytics solutions for Clipp's product suite (Taxis, Buses, Events).
-- Developed clustering algorithms (**K-Means, DBSCAN**) to segment user behavior.
-- Engineered features from raw event logs to enable effective ML models.
-- Interpreted predictive linear regression results to guide marketing strategies.
-
-### **Anyone AI** | Machine Learning Engineer
-*Mar 2025 – Jul 2025*
-Specialized machine learning development focused on fintech and e-commerce.
-- Predicted home credit repayment capability using **DecisionTree, XGBoost, and LightGBM** (ROC AUC > 0.72).
-- Built ELT pipelines to analyze revenue and delivery data for a major Latam e-commerce platform.
-- Built an image classification model (**CNN**) for vehicles and deployed as an API on AWS.
-
-### **Clínica San Jose** | Full Stack Developer
-*Oct 2024 – Feb 2025*
-- Developed a Clinic Management System using **React + Redux** and **Node.js + Express**.
-- Reduced administrative workload by an estimated 40% through process automation.
+→ Code and experiments: [`flywire-snn-stdp`](https://github.com/ljmor/flywire-snn-stdp)
 
 ---
 
-## Featured Projects
+## Work
 
-### **Insurance Policy AI Assistant**
-An intelligent, multi-tool AI agent designed to optimize insurance workflows using **RAG** to query policy databases and perform live web searches.
-* **Stack:** Python, LangChain, FAISS, Google Gemini API, FastAPI, Docker, Streamlit.
+**AI Evaluation Specialist / Technical Data Annotator** at LinkedIn, contract, since Apr 2026
+Benchmark datasets and structured annotations for code generation and code editing models. Most of my time goes into finding the specific places where models break on multi-step, realistic engineering tasks.
 
-### **Credit Risk Predictor**
-A supervised learning system to predict home credit repayment capabilities, trained on 350K+ transactions.
-* **Stack:** XGBoost, LightGBM, Scikit-learn, Python.
+**AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – Jul 2026
+LLM evaluation pipelines covering reasoning, safety, factuality, tool use and MCP compliance, with Python statistical logic as the ground-truth validator. RLHF and RLAIF evaluation, adversarial prompting, schema-based evaluation frameworks.
 
-### **Vehicle Classifier API**
-Convolutional Neural Network (CNN) capable of identifying vehicle makes and models from e-commerce images.
-* **Stack:** PyTorch, CNN, Docker, AWS, Rest API.
+**Machine Learning Engineer** at Clipp, part-time, Oct 2024 – Aug 2025
+Analytics across six product lines. Clustering on raw event logs to segment user behaviour, plus the feature engineering that made those models work at all.
+
+**Full Stack Developer** at Clínica San José, Oct 2024 – Feb 2025
+Clinic management system in React and Node, deployed and used in production.
+
+---
+
+## Things I've built
+
+**[flywire-snn-stdp](https://github.com/ljmor/flywire-snn-stdp)** — Connectome-derived spiking neural network with STDP plasticity, benchmarked against a degree-matched random control. Brian2, NetworkX, Python.
+
+**[Insurance Policy AI Assistant](https://github.com/ljmor/Insurance_Chatbot_Personal)** — Multi-tool agent for insurance workflows. RAG over a vectorised policy database, with live web search for anything the index doesn't hold. LangChain, FAISS, Gemini API, FastAPI, Docker.
+
+**Credit Risk Predictor** — Repayment prediction on 350k+ transactions, ROC AUC above 0.72. XGBoost, LightGBM.
+
+**Vehicle Classifier API** — CNN for vehicle make and model from e-commerce images, deployed on AWS. PyTorch, Docker.
+
+---
+
+## Tools I actually use
+
+Python, Brian2, NumPy, Pandas, NetworkX, scikit-learn, PyTorch, TensorFlow, LangChain
+JavaScript, React, Node.js, Express, SQL, FastAPI, Docker, AWS, Git
 
 ---
 
 ## Education
 
-* **Computer Science Engineering** | *Private Technical University of Loja* (2023 – 2026)
-* **Machine Learning Engineer Specialization** | *AnyoneAI* (2025)
+Computer Science Engineering, Universidad Técnica Particular de Loja, 2023 – expected Mar 2027
+Thesis supervisor: Prof. Alexandra Cristina Gonzáles Eras
+
+AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree.
 
 ---
 
-## Connect
-
-I am currently open to new opportunities as an **AI/ML Engineer**. If you have a project or a role that involves LLMs, Data Science, or Software Engineering, feel free to reach out.
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='32'>](https://www.linkedin.com/in/ljmor/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='32'>](https://github.com/ljmor)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/microsoftoutlook.svg' alt='email' height='32'>](mailto:ljmora004@outlook.com)
+I'm looking for a research internship or research assistant position in neuromorphic computing or computational neuroscience, in Europe or elsewhere. If you work on spiking networks, connectomics or energy-efficient AI and something here overlaps with what you're doing, I'd like to hear from you: ljmora004@outlook.com
