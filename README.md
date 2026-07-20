@@ -22,7 +22,7 @@ The question underneath it: does a topology shaped by evolution actually compute
 
 ## Work
 
-**AI Evaluation Specialist / Technical Data Annotator** at LinkedIn, contract, since Apr 2026
+**AI Evaluation Specialist / Technical Data Annotator** — LinkedIn, contract via GreenLight Workforce Solutions, since Apr 2026
 Benchmark datasets and structured annotations for code generation and code editing models. Most of my time goes into finding the specific places where models break on multi-step, realistic engineering tasks.
 
 **AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – Jul 2026
@@ -44,7 +44,9 @@ Clinic management system in React and Node, deployed and used in production.
 
 **[SIGMA-IA Clipp](https://github.com/ljmor/marketseg-clustering-clipp)** — User segmentation for the Clipp Events app, so advertising targets preference and behaviour instead of broadcasting. I led the project and built the clustering models. Team of three. Python, scikit-learn.
 
-**[Insurance Policy AI Assistant](https://github.com/ji-berti/Insurance_Chatbot)** — Multi-tool agent for insurance workflows. RAG over a vectorised policy database, with live web search for anything the index doesn't hold. Team project; my contribution was [fill this in]. LangChain, FAISS, Gemini API, FastAPI, Docker.
+**[Insurance Policy AI Assistant](https://github.com/ji-berti/Insurance_Chatbot)** — Multi-tool agent for insurance workflows. Team project; I built the agent core and the retrieval pipeline: Gemini integration, the FAISS-backed RAG layer, chat history and UI, source-citation metadata on every response, and a web-search tool for anything the index doesn't hold. I measured retrieval quality with RAGAS instead of judging answers by eye. LangChain, FAISS, Gemini API, RAGAS, FastAPI, Docker.
+
+**[Garantec Quoting Platform](https://github.com/ljmor/cotizador-seguros-garantec)** — Replacing a manual vehicle-insurance quoting process that took two to three days with one that targets under three minutes. I worked as project manager. Team of four. React, Material UI, Symfony REST backend.
 
 ## Tools I actually use
 
@@ -55,7 +57,7 @@ JavaScript, React, Node.js, Express, SQL, FastAPI, Docker, AWS, Git
 
 ## Education
 
-Computer Science Engineering, Universidad Técnica Particular de Loja, 2022 – expected Mar 2027
+Computer Science Engineering, Universidad Técnica Particular de Loja, 2023 – expected Mar 2027
 Thesis supervisor: Prof. Alexandra Cristina Gonzáles Eras
 
 AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree. Covered credit-risk modelling with gradient boosting, CNN image classification deployed on AWS, and ELT pipelines.
