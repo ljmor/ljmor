@@ -55,7 +55,7 @@ JavaScript, React, Node.js, Express, SQL, FastAPI, Docker, AWS, Git
 
 ## Education
 
-Computer Science Engineering, Universidad Técnica Particular de Loja, 2023 – expected Mar 2027
+Computer Science Engineering, Universidad Técnica Particular de Loja, 2022 – expected Mar 2027
 Thesis supervisor: Prof. Alexandra Cristina Gonzáles Eras
 
 AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree. Covered credit-risk modelling with gradient boosting, CNN image classification deployed on AWS, and ELT pipelines.
