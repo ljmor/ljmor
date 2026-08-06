@@ -1,6 +1,6 @@
 # Luis Mora
 
-Computer Science Engineering student at UTPL, Ecuador. I work on spiking neural networks built from real connectome data.
+AI/ML engineer and Computer Science Engineering student at UTPL, Ecuador. My thesis builds spiking neural networks from the *Drosophila* connectome; the rest of my work is applied machine learning, from LLM evaluation to production data pipelines.
 
 [LinkedIn](https://www.linkedin.com/in/ljmor/) · [Email](mailto:ljmora004@outlook.com) · [ORCID](https://orcid.org/YOUR-ID) · Loja, Ecuador
 
@@ -18,7 +18,9 @@ The question underneath it: does a topology shaped by evolution actually compute
 
 → Code and experiments: [`flywire-snn-stdp`](https://github.com/ljmor/flywire-snn-stdp)
 
----
+## What else I do
+
+The thesis is the research side. Day to day I build and evaluate ML systems: LLM evaluation pipelines and benchmark datasets at LinkedIn and Scale AI, retrieval-augmented agents, clustering and forecasting on real product data, and the deployment glue that gets a model from a notebook to an API someone can call. The through-line is the same as in the thesis — I care about whether a system actually works, measured properly, not whether it looks like it works.
 
 ## Work
 
@@ -34,8 +36,6 @@ Analytics across six product lines. Clustering on raw event logs to segment user
 **Full Stack Developer** at Clínica San José, Oct 2024 – Feb 2025
 Clinic management system in React and Node, deployed and used in production.
 
----
-
 ## Things I've built
 
 **[flywire-snn-stdp](https://github.com/ljmor/flywire-snn-stdp)** — Connectome-derived spiking neural network with STDP plasticity, benchmarked against a degree-matched random control. Brian2, NetworkX, Python.
@@ -46,22 +46,18 @@ Clinic management system in React and Node, deployed and used in production.
 
 **[Insurance Policy AI Assistant](https://github.com/ji-berti/Insurance_Chatbot)** — Multi-tool agent for insurance workflows. Team project; I built the agent core and the retrieval pipeline: Gemini integration, the FAISS-backed RAG layer, chat history and UI, source-citation metadata on every response, and a web-search tool for anything the index doesn't hold. I measured retrieval quality with RAGAS instead of judging answers by eye. LangChain, FAISS, Gemini API, RAGAS, FastAPI, Docker.
 
-**[Garantec Quoting Platform](https://github.com/ljmor/cotizador-seguros-garantec)** — Replacing a manual vehicle-insurance quoting process that took two to three days with one that targets under three minutes. I worked as project manager. Team of four. React, Material UI, Symfony REST backend.
-
 ## Tools I actually use
 
-Python, Brian2, NumPy, Pandas, NetworkX, scikit-learn, PyTorch, TensorFlow, LangChain
+Python, Brian2, NumPy, Pandas, NetworkX, scikit-learn, PyTorch, TensorFlow, LangChain, FAISS
 JavaScript, React, Node.js, Express, SQL, FastAPI, Docker, AWS, Git
-
----
 
 ## Education
 
-Computer Science Engineering, Universidad Técnica Particular de Loja, 2023 – expected Mar 2027
+Computer Science Engineering, Universidad Técnica Particular de Loja, 2022 – expected Mar 2027
 Thesis supervisor: Prof. Alexandra Cristina Gonzáles Eras
 
 AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree. Covered credit-risk modelling with gradient boosting, CNN image classification deployed on AWS, and ELT pipelines.
 
 ---
 
-I'm looking for a research internship or research assistant position in neuromorphic computing or computational neuroscience, in Europe or elsewhere. If you work on spiking networks, connectomics or energy-efficient AI and something here overlaps with what you're doing, I'd like to hear from you: ljmora004@outlook.com
+I'm open to research positions in neuromorphic computing and computational neuroscience, and to ML / AI engineering roles more broadly. If you work on spiking networks, connectomics, energy-efficient AI, or you just need someone who builds and evaluates ML systems carefully, reach me at ljmora004@outlook.com
