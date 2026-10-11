@@ -1,63 +1,31 @@
 # Luis Mora
 
-AI/ML engineer and Computer Science Engineering student at UTPL, Ecuador. My thesis builds spiking neural networks from the *Drosophila* connectome; the rest of my work is applied machine learning, from LLM evaluation to production data pipelines.
+Software and AI/ML engineer from Loja, Ecuador. I build LLM evaluation pipelines, RAG agents, data platforms and full-stack apps. Then I measure them properly, because looking like it works isn't the same as working.
 
-[LinkedIn](https://www.linkedin.com/in/ljmor/) · [Email](mailto:ljmora004@outlook.com) · [ORCID](https://orcid.org/YOUR-ID) · Loja, Ecuador
+[LinkedIn](https://www.linkedin.com/in/ljmor/) · [Email](mailto:ljmora004@outlook.com)
 
----
+## Now
 
-## What I'm working on
+- **AI Evaluation Specialist** for LinkedIn, contract via GreenLight (since Apr 2026). Benchmark datasets and annotations for code-generation and code-editing models.
+- **Final year of Computer Science Engineering** at UTPL. My thesis trains a spiking neural network built from the fruit-fly connectome. Code in [`flywire-snn-stdp`](https://github.com/ljmor/flywire-snn-stdp).
 
-In October 2024 the FlyWire consortium published the first synapse-resolution map of an adult *Drosophila* brain: about 128,000 neurons and 53 million synapses. Shiu et al. then showed that this wiring alone, simulated as a leaky integrate-and-fire network, predicts real fly motor behaviour at roughly 95% accuracy. In March 2026 Eon Systems ran a whole embodied emulation of the fly in a physics engine.
+## Before
 
-All of those models share one limitation, and their authors say so themselves: the synaptic weights are static. The networks don't learn.
+- **Scale AI**, AI Research & Evaluation Engineer (Jul 2025 – Jul 2026). LLM evaluation pipelines, RLHF/RLAIF, MCP compliance checks.
+- **Clipp**, Machine Learning Engineer, part-time (Oct 2024 – Aug 2025). Analytics for six product lines and user segmentation.
+- **Clínica Hospital San José**, Full Stack Developer (Oct 2024 – Feb 2025). Clinic management system in React and Node, deployed and used in production.
 
-My undergraduate thesis adds the learning. I extract the Johnston's Organ auditory circuit from the FlyWire connectome, implement it in Brian2, add spike-timing-dependent plasticity and winner-take-all dynamics, and race it against a control network matched on neuron count, degree distribution and everything else I could hold fixed. Topology is the only thing that differs, so if one wins, I know why.
+## Projects
 
-The question underneath it: does a topology shaped by evolution actually compute better than one we design? Nobody could test that before 2024.
+- **[Insurance Policy AI Assistant](https://github.com/ji-berti/Insurance_Chatbot)**. Multi-tool agent with a FAISS RAG layer, Gemini and web search. Answers cite their sources and retrieval is scored with RAGAS. I built the agent core and the retrieval pipeline.
+- **[Clipp Analytics Platform](https://github.com/ljmor/data_analytics_clipp)**. KPI dashboards for six service lines. I designed the architecture and the ETL, with Airflow loading PostgreSQL and FastAPI on top.
+- **[SIGMA-IA Clipp](https://github.com/ljmor/marketseg-clustering-clipp)**. User segmentation for the Clipp Events app with K-Means. I led it.
+- **[flywire-snn-stdp](https://github.com/ljmor/flywire-snn-stdp)**. Connectome-derived SNN with STDP, tested against a degree-matched random control.
 
-→ Code and experiments: [`flywire-snn-stdp`](https://github.com/ljmor/flywire-snn-stdp)
+## Stack
 
-## What else I do
+- **ML / AI** · Python, scikit-learn, PyTorch, TensorFlow, LangChain, FAISS, RAGAS, Brian2
+- **Software** · JavaScript, React, Next.js, Node.js, FastAPI, SQL
+- **Infra** · Docker, Airflow, PostgreSQL, AWS, Git
 
-The thesis is the research side. Day to day I build and evaluate ML systems: LLM evaluation pipelines and benchmark datasets at LinkedIn and Scale AI, retrieval-augmented agents, clustering and forecasting on real product data, and the deployment glue that gets a model from a notebook to an API someone can call. The through-line is the same as in the thesis — I care about whether a system actually works, measured properly, not whether it looks like it works.
-
-## Work
-
-**AI Evaluation Specialist / Technical Data Annotator** — LinkedIn, contract via GreenLight Workforce Solutions, since Apr 2026
-Benchmark datasets and structured annotations for code generation and code editing models. Most of my time goes into finding the specific places where models break on multi-step, realistic engineering tasks.
-
-**AI Research & Evaluation Engineer** at Scale AI, Jul 2025 – Jul 2026
-LLM evaluation pipelines covering reasoning, safety, factuality, tool use and MCP compliance, with Python statistical logic as the ground-truth validator. RLHF and RLAIF evaluation, adversarial prompting, schema-based evaluation frameworks.
-
-**Machine Learning Engineer** at Clipp, part-time, Oct 2024 – Aug 2025
-Analytics across six product lines. Clustering on raw event logs to segment user behaviour, plus the feature engineering that made those models work at all.
-
-**Full Stack Developer** at Clínica San José, Oct 2024 – Feb 2025
-Clinic management system in React and Node, deployed and used in production.
-
-## Things I've built
-
-**[flywire-snn-stdp](https://github.com/ljmor/flywire-snn-stdp)** — Connectome-derived spiking neural network with STDP plasticity, benchmarked against a degree-matched random control. Brian2, NetworkX, Python.
-
-**[Clipp Analytics Platform](https://github.com/ljmor/data_analytics_clipp)** — Microservice platform producing KPI dashboards for six Clipp service lines. I designed the architecture and built the ETL module: scheduled Airflow extraction into a central PostgreSQL store, served through FastAPI. Team of three. Docker, Airflow, FastAPI, Pandas, PostgreSQL, Next.js.
-
-**[SIGMA-IA Clipp](https://github.com/ljmor/marketseg-clustering-clipp)** — User segmentation for the Clipp Events app, so advertising targets preference and behaviour instead of broadcasting. I led the project and built the clustering models. Team of three. Python, scikit-learn.
-
-**[Insurance Policy AI Assistant](https://github.com/ji-berti/Insurance_Chatbot)** — Multi-tool agent for insurance workflows. Team project; I built the agent core and the retrieval pipeline: Gemini integration, the FAISS-backed RAG layer, chat history and UI, source-citation metadata on every response, and a web-search tool for anything the index doesn't hold. I measured retrieval quality with RAGAS instead of judging answers by eye. LangChain, FAISS, Gemini API, RAGAS, FastAPI, Docker.
-
-## Tools I actually use
-
-Python, Brian2, NumPy, Pandas, NetworkX, scikit-learn, PyTorch, TensorFlow, LangChain, FAISS
-JavaScript, React, Node.js, Express, SQL, FastAPI, Docker, AWS, Git
-
-## Education
-
-Computer Science Engineering, Universidad Técnica Particular de Loja, 2022 – expected Mar 2027
-Thesis supervisor: Prof. Alexandra Cristina Gonzáles Eras
-
-AnyoneAI, Machine Learning Engineer Specialization, 2025. Project-based industry programme, not a degree. Covered credit-risk modelling with gradient boosting, CNN image classification deployed on AWS, and ELT pipelines.
-
----
-
-I'm open to research positions in neuromorphic computing and computational neuroscience, and to ML / AI engineering roles more broadly. If you work on spiking networks, connectomics, energy-efficient AI, or you just need someone who builds and evaluates ML systems carefully, reach me at ljmora004@outlook.com
+Open to AI/ML and software engineering roles in Spain, the US or remote. Write to ljmora004@outlook.com
